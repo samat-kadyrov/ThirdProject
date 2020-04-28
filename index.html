@@ -1,0 +1,708 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:200,300,300i,400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Portfolio</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+<body>
+
+
+<!-- Header -->
+<header class="header">
+    <div class="container">
+        <div class="header__inner">
+
+            <div class="user">
+                <div class="user__avatar">
+                    <img src="https://placehold.it/57/333" alt="avatar">
+                </div>
+                <div class="user__content">
+                    <div class="user__name">Samat<br>Kadyrov</div>
+                    <div class="user__prof">WEB Developer</div>
+                </div>
+            </div>
+
+            <nav class="nav" id="nav">
+                <a class="nav__link" href="#intro">Контакты</a>
+                <a class="nav__link" href="#works">Работы</a>
+                <a class="nav__link" href="#about">Обо мне</a>
+                <a class="nav__link  nav__link--btn" href="#" data-modal="#modal_hire_me">Нанять меня</a>
+            </nav>
+
+            <button class="burger" type="button" id="navToggle">
+                <img class="burger__icon" src="images/burger.svg" alt="">
+            </button>
+        </div>
+    </div>
+</header>
+
+
+
+<!-- Intro -->
+<section class="intro" id="intro">
+    <div class="container">
+
+        <div class="intro__inner">
+            <div class="intro__content">
+                <h2 class="intro__subtitle">Привет, я</h2>
+                <h1 class="intro__title">Samat Kadyrov</h1>
+                <div class="intro__text">WEB Разработчик</div>
+
+                <div class="social">
+                    <a class="social__link" href="https://t.me/IIIapoBep" target="_blank">
+                        <img src="images/tg.svg" alt="">
+                    </a>
+                    <a class="social__link" href="https://vk.com/sema_kadyrov" target="_blank">
+                        <img src="images/vk.svg" alt="">
+                    </a>
+                    <a class="social__link" href="https://join.skype.com/invite/ov7ep2nhqQF9" target="_blank">
+                        <img src="images/skype.svg" alt="">
+                    </a>
+                    <a class="social__link" href="https://www.facebook.com/samat.kadyrov.104" target="_blank">
+                        <img src="images/fb.svg" alt="">
+                    </a>
+                    <a class="social__link" href="https://wa.me/996556996558" target="_blank">
+                        <img src="images/wa.svg" alt="">
+                    </a>
+                </div>
+
+                <a class="btn" href="#" data-modal="#modal_hire_me">Нанять меня</a>
+                <button class="btn" type="button" data-modal="#modal_resume">Моё резюме</button>
+            </div>
+
+            <img class="intro__photo" src="images/photo.png" alt="">
+        </div><!-- /.intro__inner -->
+
+    </div><!-- /.container -->
+</section>
+
+
+
+<!-- Works -->
+<div class="works" id="works">
+    <div class="container">
+
+        <div class="works__header">
+            <h3 class="works__title">Работы</h3>
+            <div class="works__text">Список моих проектов</div>
+        </div>
+
+
+        <div class="portfolio" id="portfolio">
+            <div class="portfolio__col">
+                <div class="work" data-modal="#modal_project_1">
+                    <img class="work__image" src="images/project1.png" alt="">
+                    <div class="work__content">
+                        <div class="work__title">
+                            Школа-гимназия №2
+                            <time class="work__date" datetime="2020-03-20 19:00">2020</time>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="portfolio__col">
+                <div class="work" data-modal="#modal_project_2">
+                    <img class="work__image" src="images/project-bg.png" alt="">
+                    <div class="work__content">
+                        <div class="work__title">
+                            Project title 2
+                            <time class="work__date" datetime="2020-03-20 19:00">2020</time>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="portfolio__col">
+                <div class="work" data-modal="#modal_project_3">
+                    <img class="work__image" src="images/project-bg.png" alt="">
+                    <div class="work__content">
+                        <div class="work__title">
+                            Project title 3
+                            <time class="work__date" datetime="2020-03-20 19:00">2020</time>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="portfolio__col">
+                <div class="work" data-modal="#modal_project_4">
+                    <img class="work__image" src="images/project-bg.png" alt="">
+                    <div class="work__content">
+                        <div class="work__title">
+                            Project title 4
+                            <time class="work__date" datetime="2020-03-20 19:00">2020</time>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="portfolio__col">
+                <div class="work" data-modal="#modal_project_5">
+                    <img class="work__image" src="images/project-bg.png" alt="">
+                    <div class="work__content">
+                        <div class="work__title">
+                            Project title 5
+                            <time class="work__date" datetime="2020-03-20 19:00">2020</time>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="portfolio__col">
+                <div class="work" data-modal="#modal_project_6">
+                    <img class="work__image" src="images/project-bg.png" alt="">
+                    <div class="work__content">
+                        <div class="work__title">
+                            Project title 6
+                            <time class="work__date" datetime="2020-03-20 19:00">2020</time>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div><!-- /.portfolio -->
+
+    </div><!-- /.container -->
+</div><!-- /.works -->
+
+
+
+<!-- About -->
+<section class="about" id="about">
+    <div class="container">
+
+        <div class="about__inner">
+            <div class="about__photo">
+                <img class="img" src="images/designer_photo.png" alt="">
+            </div>
+
+            <div class="about__content">
+                <h3 class="about__title">Обо мне</h3>
+                <h2 class="about__bigtitle">Кто я</h2>
+                <div class="about__text">
+                    <p>Привет! Меня зовут Самат, я недавно начал осваивать WEB-разработку и уже делаю первые успехи. Следите за моими достижениями, а лучше закажите у меня сайт. Все самое интересное - впереди!</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste a dolores consectetur provident ratione quo reiciendis, eligendi aliquid error ab ducimus fugit, quia perferendis id laboriosam animi eos excepturi sint.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste a dolores consectetur provident ratione quo reiciendis, eligendi aliquid error ab ducimus fugit, quia perferendis id laboriosam animi eos excepturi sint.</p>
+                </div>
+                <a class="btn" href="#" data-modal="#modal_hire_me">Нанять меня</a>
+                <button class="btn" type="button" data-modal="#modal_resume">Мое резюме</button>
+            </div><!-- /.about__content -->
+        </div><!-- /.about__inner -->
+
+    </div><!-- /.container -->
+</section>
+
+
+
+<!-- Footer -->
+<footer class="footer">
+    <div class="container">
+
+        <div class="footer__inner">
+            <div class="footer__credits">
+                <div class="footer__copyright">
+                    &copy; 2020 Samat Kadyrov
+                </div>
+
+                <div class="footer__social">
+                    <a href="https://t.me/IIIapoBep" target="_blank">
+                        <img src="images/tg-2.svg" height="20" alt="">
+                    </a>
+                    <a href="https://vk.com/sema_kadyrov" target="_blank">
+                        <img src="images/vk-2.svg" height="20" alt="">
+                    </a>
+                    <a href="https://join.skype.com/invite/ov7ep2nhqQF9" target="_blank">
+                        <img src="images/skype-2.svg" height="20" alt="">
+                    </a>
+                    <a href="https://www.facebook.com/samat.kadyrov.104" target="_blank">
+                        <img src="images/fb-2.svg" height="20" alt="">
+                    </a>
+                    <a href="https://wa.me/996556996558" target="_blank">
+                        <img src="images/wa-2.svg" height="20" alt="">
+                    </a>
+                </div>
+            </div><!-- /.footer__credits -->
+
+            <nav class="footer__nav">
+                <a class="footer__nav-link" href="#intro">Контакты</a>
+                <a class="footer__nav-link" href="#works">Работы</a>
+                <a class="footer__nav-link" href="#about">Обо мне</a>
+                <a class="footer__nav-link  footer__nav-link--btn" href="#" data-modal="#modal_hire_me">Нанять меня</a>
+            </nav>
+        </div><!-- /.footer__inner -->
+
+    </div><!-- /.container -->
+</footer>
+
+
+
+
+
+<!-- Modals -->
+<div class="modal" id="modal_project_1">
+    <div class="modal__dialog">
+
+        <button class="modal__close" type="button" data-close>
+            <img src="images/modal-close.svg" alt="Close">
+        </button>
+
+        <div class="modal-work">
+            <div class="modal-work__preview">
+                <div data-slider="slick">
+                    <div>
+                        <img class="modal-work__photo" src="images/project1.png" alt="">
+                    </div>
+                    <div>
+                        <img class="modal-work__photo" src="images/project1.1.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="modal-work__content">
+
+                <div class="modal-work__header">
+                    <h3 class="modal-work__title">Школа-гимназия №2</h3>
+                    <div class="modal-work__info">
+                        Сайт <span class="modal-work__info-divider">|</span> 2020
+                    </div>
+                </div>
+
+                <div class="modal-work__client">
+                    <div class="modal-work__client-title">Клиент: Сакеева Л.А.</div>
+                    <div class="modal-work__client-company">Школа-гимназия №2</div>
+                </div>
+
+                <div class="modal-work__text">
+                    <p>Поступил заказ сделать информативный, стильный и современный сайт для школы. Результат перед вами.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur dicta, recusandae debitis iusto quos voluptatum at. Dolorum a, velit rerum dicta aut sapiente, optio accusantium? Sunt sed praesentium est minima.</p>
+                </div>
+
+                <div class="modal-work__footer">
+                    <button class="modal-work__btn slickPrev" type="button">
+                        <img src="images/back.svg" height="11" alt="">
+                        Previous
+                    </button>
+                    <button class="modal-work__btn slickNext" type="button">
+                        Next
+                        <img src="images/next.svg" height="11" alt="">
+                    </button>
+                </div>
+
+            </div><!-- /.modal-work__content -->
+        </div><!--/.modal-work -->
+
+    </div><!-- /.modal__dialog -->
+</div><!-- /.modal -->
+
+
+<div class="modal" id="modal_project_2">
+    <div class="modal__dialog">
+
+        <button class="modal__close" type="button" data-close>
+            <img src="images/modal-close.svg" alt="Close">
+        </button>
+
+        <div class="modal-work">
+            <div class="modal-work__preview">
+                <div data-slider="slick">
+                    <div>
+                        <img class="modal-work__photo" src="https://placehold.it/790x780" alt="">
+                    </div>
+                    <div>
+                        <img class="modal-work__photo" src="https://placehold.it/790x780/333" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="modal-work__content">
+
+                <div class="modal-work__header">
+                    <h3 class="modal-work__title">Project title 2</h3>
+                    <div class="modal-work__info">
+                        category <span class="modal-work__info-divider">|</span> 2020
+                    </div>
+                </div>
+
+                <div class="modal-work__client">
+                    <div class="modal-work__client-title">Client:</div>
+                    <div class="modal-work__client-company">Creative Agency</div>
+                </div>
+
+                <div class="modal-work__text">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur dicta, recusandae debitis iusto quos voluptatum at. Dolorum a, velit rerum dicta aut sapiente, optio accusantium? Sunt sed praesentium est minima.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur dicta, recusandae debitis iusto quos voluptatum at. Dolorum a, velit rerum dicta aut sapiente, optio accusantium? Sunt sed praesentium est minima.</p>
+                </div>
+
+                <div class="modal-work__footer">
+                    <button class="modal-work__btn slickPrev" type="button">
+                        <img src="images/back.svg" height="11" alt="">
+                        Previous
+                    </button>
+                    <button class="modal-work__btn slickNext" type="button">
+                        Next
+                        <img src="images/next.svg" height="11" alt="">
+                    </button>
+                </div>
+
+            </div><!-- /.modal-work__content -->
+        </div><!--/.modal-work -->
+
+    </div><!-- /.modal__dialog -->
+</div><!-- /.modal -->
+
+<div class="modal" id="modal_project_3">
+    <div class="modal__dialog">
+
+        <button class="modal__close" type="button" data-close>
+            <img src="images/modal-close.svg" alt="Close">
+        </button>
+
+        <div class="modal-work">
+            <div class="modal-work__preview">
+                <div data-slider="slick">
+                    <div>
+                        <img class="modal-work__photo" src="https://placehold.it/790x780" alt="">
+                    </div>
+                    <div>
+                        <img class="modal-work__photo" src="https://placehold.it/790x780/333" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="modal-work__content">
+
+                <div class="modal-work__header">
+                    <h3 class="modal-work__title">Project title 3</h3>
+                    <div class="modal-work__info">
+                        category <span class="modal-work__info-divider">|</span> 2020
+                    </div>
+                </div>
+
+                <div class="modal-work__client">
+                    <div class="modal-work__client-title">Client:</div>
+                    <div class="modal-work__client-company">Creative Agency</div>
+                </div>
+
+                <div class="modal-work__text">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur dicta, recusandae debitis iusto quos voluptatum at. Dolorum a, velit rerum dicta aut sapiente, optio accusantium? Sunt sed praesentium est minima.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur dicta, recusandae debitis iusto quos voluptatum at. Dolorum a, velit rerum dicta aut sapiente, optio accusantium? Sunt sed praesentium est minima.</p>
+                </div>
+
+                <div class="modal-work__footer">
+                    <button class="modal-work__btn slickPrev" type="button">
+                        <img src="images/back.svg" height="11" alt="">
+                        Previous
+                    </button>
+                    <button class="modal-work__btn slickNext" type="button">
+                        Next
+                        <img src="images/next.svg" height="11" alt="">
+                    </button>
+                </div>
+
+            </div><!-- /.modal-work__content -->
+        </div><!--/.modal-work -->
+
+    </div><!-- /.modal__dialog -->
+</div><!-- /.modal -->
+
+<div class="modal" id="modal_project_4">
+    <div class="modal__dialog">
+
+        <button class="modal__close" type="button" data-close>
+            <img src="images/modal-close.svg" alt="Close">
+        </button>
+
+        <div class="modal-work">
+            <div class="modal-work__preview">
+                <div data-slider="slick">
+                    <div>
+                        <img class="modal-work__photo" src="https://placehold.it/790x780" alt="">
+                    </div>
+                    <div>
+                        <img class="modal-work__photo" src="https://placehold.it/790x780/333" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="modal-work__content">
+
+                <div class="modal-work__header">
+                    <h3 class="modal-work__title">Project title 4</h3>
+                    <div class="modal-work__info">
+                        category <span class="modal-work__info-divider">|</span> 2020
+                    </div>
+                </div>
+
+                <div class="modal-work__client">
+                    <div class="modal-work__client-title">Client:</div>
+                    <div class="modal-work__client-company">Creative Agency</div>
+                </div>
+
+                <div class="modal-work__text">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur dicta, recusandae debitis iusto quos voluptatum at. Dolorum a, velit rerum dicta aut sapiente, optio accusantium? Sunt sed praesentium est minima.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur dicta, recusandae debitis iusto quos voluptatum at. Dolorum a, velit rerum dicta aut sapiente, optio accusantium? Sunt sed praesentium est minima.</p>
+                </div>
+
+                <div class="modal-work__footer">
+                    <button class="modal-work__btn slickPrev" type="button">
+                        <img src="images/back.svg" height="11" alt="">
+                        Previous
+                    </button>
+                    <button class="modal-work__btn slickNext" type="button">
+                        Next
+                        <img src="images/next.svg" height="11" alt="">
+                    </button>
+                </div>
+
+            </div><!-- /.modal-work__content -->
+        </div><!--/.modal-work -->
+
+    </div><!-- /.modal__dialog -->
+</div><!-- /.modal -->
+
+<div class="modal" id="modal_project_5">
+    <div class="modal__dialog">
+
+        <button class="modal__close" type="button" data-close>
+            <img src="images/modal-close.svg" alt="Close">
+        </button>
+
+        <div class="modal-work">
+            <div class="modal-work__preview">
+                <div data-slider="slick">
+                    <div>
+                        <img class="modal-work__photo" src="https://placehold.it/790x780" alt="">
+                    </div>
+                    <div>
+                        <img class="modal-work__photo" src="https://placehold.it/790x780/333" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="modal-work__content">
+
+                <div class="modal-work__header">
+                    <h3 class="modal-work__title">Project title 5</h3>
+                    <div class="modal-work__info">
+                        category <span class="modal-work__info-divider">|</span> 2020
+                    </div>
+                </div>
+
+                <div class="modal-work__client">
+                    <div class="modal-work__client-title">Client:</div>
+                    <div class="modal-work__client-company">Creative Agency</div>
+                </div>
+
+                <div class="modal-work__text">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur dicta, recusandae debitis iusto quos voluptatum at. Dolorum a, velit rerum dicta aut sapiente, optio accusantium? Sunt sed praesentium est minima.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur dicta, recusandae debitis iusto quos voluptatum at. Dolorum a, velit rerum dicta aut sapiente, optio accusantium? Sunt sed praesentium est minima.</p>
+                </div>
+
+                <div class="modal-work__footer">
+                    <button class="modal-work__btn slickPrev" type="button">
+                        <img src="images/back.svg" height="11" alt="">
+                        Previous
+                    </button>
+                    <button class="modal-work__btn slickNext" type="button">
+                        Next
+                        <img src="images/next.svg" height="11" alt="">
+                    </button>
+                </div>
+
+            </div><!-- /.modal-work__content -->
+        </div><!--/.modal-work -->
+
+    </div><!-- /.modal__dialog -->
+</div><!-- /.modal -->
+
+<div class="modal" id="modal_project_6">
+    <div class="modal__dialog">
+
+        <button class="modal__close" type="button" data-close>
+            <img src="images/modal-close.svg" alt="Close">
+        </button>
+
+        <div class="modal-work">
+            <div class="modal-work__preview">
+                <div data-slider="slick">
+                    <div>
+                        <img class="modal-work__photo" src="https://placehold.it/790x780" alt="">
+                    </div>
+                    <div>
+                        <img class="modal-work__photo" src="https://placehold.it/790x780/333" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="modal-work__content">
+
+                <div class="modal-work__header">
+                    <h3 class="modal-work__title">Project title 6</h3>
+                    <div class="modal-work__info">
+                        category <span class="modal-work__info-divider">|</span> 2020
+                    </div>
+                </div>
+
+                <div class="modal-work__client">
+                    <div class="modal-work__client-title">Client:</div>
+                    <div class="modal-work__client-company">Creative Agency</div>
+                </div>
+
+                <div class="modal-work__text">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur dicta, recusandae debitis iusto quos voluptatum at. Dolorum a, velit rerum dicta aut sapiente, optio accusantium? Sunt sed praesentium est minima.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur dicta, recusandae debitis iusto quos voluptatum at. Dolorum a, velit rerum dicta aut sapiente, optio accusantium? Sunt sed praesentium est minima.</p>
+                </div>
+
+                <div class="modal-work__footer">
+                    <button class="modal-work__btn slickPrev" type="button">
+                        <img src="images/back.svg" height="11" alt="">
+                        Previous
+                    </button>
+                    <button class="modal-work__btn slickNext" type="button">
+                        Next
+                        <img src="images/next.svg" height="11" alt="">
+                    </button>
+                </div>
+
+            </div><!-- /.modal-work__content -->
+        </div><!--/.modal-work -->
+
+    </div><!-- /.modal__dialog -->
+</div><!-- /.modal -->
+
+
+<div class="modal" id="modal_resume">
+    <div class="modal__dialog">
+
+        <button class="modal__close" type="button" data-close>
+            <img src="images/modal-close.svg" alt="Close">
+        </button>
+
+        <div class="modal__content">
+            <h3 class="modal__title  text-center">Резюме</h3>
+
+            <div class="timeline">
+                <div class="timeline__col  timeline__col--left">
+                    <h4 class="timeline__title">Опыт работы</h4>
+
+                    <div class="timeline__item">
+                        <time class="timeline__date" datetime="11-21-2019">2019</time>
+                        <h5 class="timeline__subtitle">Freelancer</h5>
+                        <div class="timeline__position">WEB developer</div>
+                        <div class="timeline__text">
+                            <p>Frontend разработчик</p>
+                        </div>
+                    </div>
+
+                    <div class="timeline__item">
+                        <time class="timeline__date" datetime="11-21-2017">2017</time>
+                        <h5 class="timeline__subtitle">Wargaming.net</h5>
+                        <div class="timeline__position">SMM Administrator</div>
+                        <div class="timeline__text">
+                            <p>Занимался продвижением игр компании Wargaming.net в социальных сетях</p>
+                        </div>
+                    </div>
+
+                    <div class="timeline__item">
+                        <time class="timeline__date" datetime="07-05-2016">2016</time>
+                        <h5 class="timeline__subtitle">Issykkul.biz</h5>
+                        <div class="timeline__position">Administrator</div>
+                        <div class="timeline__text">
+                            <p>Был администратором сайта, общался с клиентами и искал для них отели с учетом их предпочтений</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline__col  timeline__col--right">
+                    <h4 class="timeline__title">Образование</h4>
+
+                    <div class="timeline__item">
+                        <time class="timeline__date" datetime="30-03-2020">2019 - 2020</time>
+                        <h5 class="timeline__subtitle">Frontend разработка</h5>
+                        <div class="timeline__position">Курсы по WEB-разработке по программе GIZ</div>
+                    </div>
+
+                    <div class="timeline__item">
+                        <time class="timeline__date" datetime="11-12-2016">2016</time>
+                        <h5 class="timeline__subtitle">Компьютерная грамотность</h5>
+                        <div class="timeline__position">Курсы компьютерной грамотности на базе университета</div>
+                    </div>
+
+                    <div class="timeline__item">
+                        <time class="timeline__date" datetime="25-05-2015">2004 - 2015</time>
+                        <h5 class="timeline__subtitle">Среднее образование</h5>
+                        <div class="timeline__position">Школа-гимназия №11 г.Каракол</div>
+                    </div>
+
+                    <div class="timeline__item">
+                        <h4 class="timeline__title">Навыки</h4>
+                        <div class="timeline__position">HTML</div>
+                        <div class="timeline__position">CSS</div>
+                        <div class="timeline__position">JavaScript</div>
+                        <div class="timeline__position">Уверенный пользователь ПК</div>
+                        <div class="timeline__position">Отличное владение кыргызским и русскими языками</div>
+                    </div>
+
+                </div><!-- /.timeline__col -->
+
+            </div><!-- /.timeline -->
+
+            <div class="text-center">
+                <a class="btn" href="#" data-modal="#modal_hire_me">Hire me</a>
+            </div>
+
+        </div><!-- /.modal__content -->
+
+    </div><!-- /.modal__dialog -->
+</div><!-- /.modal -->
+
+
+<div class="modal" id="modal_hire_me">
+    <div class="modal__dialog  modal__dialog--sm">
+
+        <button class="modal__close" type="button" data-close>
+            <img src="images/modal-close.svg" alt="Close">
+        </button>
+
+        <div class="contact">
+            <div class="contact__left">
+                <h3 class="modal__title mb-0">Обсудим?</h3>
+                <h4 class="modal__subtitle">Позвоните мне или оставьте запрос</h4>
+
+                <ul class="contact__info">
+                    <li class="contact__info-item">
+                        <img class="contact__info-icon" src="images/phone.svg" height="15" alt="">+(996) 556 996 558
+                    </li>
+                    <li class="contact__info-item">
+                        <img class="contact__info-icon" src="images/mail.svg" height="15" alt="">sema.kadyroff@gmail.com
+                    </li>
+                </ul>
+
+                <form class="form" action="/" method="post">
+                    <div class="form__group">
+                        <label class="form__label" for="input-email">Электронная почта:</label>
+                        <input class="form__input" name="input-email" type="text" id="input-email" placeholder="e-mail">
+                    </div>
+
+                    <div class="form__group">
+                        <label class="form__label" for="input-text">Запрос:</label>
+                        <textarea class="form__textarea" name="input-text" id="input-text" placeholder="Напишите ваш запрос..."></textarea>
+                    </div>
+
+                    <div class="text-right">
+                        <button class="btn" type="submit">Отправить</button>
+                    </div>
+                </form>
+            </div><!-- /.contact__left -->
+        </div><!-- /.contact -->
+
+    </div><!-- /.modal__dialog -->
+</div><!-- /.modal -->
+
+
+
+<!-- JS -->
+<script src="js/slick.min.js"></script>
+<script src="js/app.js"></script>
+
+</body>
+</html>
